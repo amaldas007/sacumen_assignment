@@ -1,0 +1,29 @@
+Bubble Sort(arr, size)
+		for i=0 to n-i-1
+			for j=0 to n-i-2
+				if arr[j]>arr[j+1]
+					Swap arr[j] and arr[j+1]
+
+
+Sort the input array with the above bubble sort algorithm
+
+Initialize a dynamic array to store the largest array found
+
+Initialize array_pointer to point to start of input_sorted_array
+
+Get the value pointer by array_pointer and increment value 
+
+if incremented_value matches the next location of array_pointer
+keep storing the array to a local_array
+
+if incremented_value not equal to value pointed next by array_pointer
+copy the local_array to dynamic array created for the largest_array_found
+
+Keep repeating this until the end of the input sorted array
+and if the local_array is greater than largest_array_found
+overwrite largest_array_found with local array
+
+once the end of array is reached
+find the lowest and the highest value in the largest_array_found
+and return them as an array
+
